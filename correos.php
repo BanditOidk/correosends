@@ -12,5 +12,5 @@ $mensajecompleto = $mensaje . "\nAtentamente:" . $nombre;
 
 mail($destinatario, $asunto, $mensaje, $header);
 echo "<script>alert('correo enviado') </script>";
-echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";
+echo "<script>setTimeout(\"location.href='index.php'\",1000)</script>";
 ?>
